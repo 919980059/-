@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>海伦交房吃土计算器</title>
-	<base href="/">
+	<base href='/'>
     <meta charset="utf-8">
     <meta name="description" content="海伦交房,计算器,吃土">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -220,12 +220,17 @@
         }
 
         @media screen and (max-width: 599px) {
+            .main {
+                padding: 0 4px;
+            }
+
             .calc {
+                margin-top: 12px;
                 font-size: 13px;
             }
 
             .calc input:not(.checkbox) {
-                width: 56px;
+                width: 48px;
                 margin-left: 4px;
             }
 
@@ -238,6 +243,7 @@
             }
 
             .ensure {
+                margin: 12px 0;
                 padding-right: 24px;
             }
 
@@ -273,7 +279,8 @@
             houseType = document.getElementById('houseType').value;
             getAndSetRate()
         }
-        function getAndSetRate(){
+
+        function getAndSetRate() {
             switch (parseInt(houseType)) {
                 case 0: {
                     if (house.area <= 90) {

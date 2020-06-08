@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="172">
+              <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
               <folding>
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -117,7 +117,8 @@
       <updated>1590998541458</updated>
       <workItem from="1590998546341" duration="4285000" />
       <workItem from="1591236142512" duration="7857000" />
-      <workItem from="1591251705565" duration="1355000" />
+      <workItem from="1591251705565" duration="1374000" />
+      <workItem from="1591580438137" duration="1429000" />
     </task>
     <task id="LOCAL-00001" summary="修复叠墅物业费3.0元/平">
       <created>1591003184435</created>
@@ -126,17 +127,24 @@
       <option name="project" value="LOCAL" />
       <updated>1591003184435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复叠墅物业费3.0元/平">
+      <created>1591264939593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591264939593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13497000" />
+    <option name="totallyTimeSpent" value="14945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="4" width="1472" height="800" extended-state="1" />
+    <frame x="8" y="4" width="1472" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12305516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12446959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -178,8 +186,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        <state relative-caret-position="172">
+          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
           <folding>
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />

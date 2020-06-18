@@ -179,7 +179,8 @@
             margin-top: 32px;
             font-size: 15px;
             flex-direction: row;
-            justify-content: space-around;
+            flex-wrap: wrap;
+            justify-content: space-between;
             align-items: center;
         }
 
@@ -198,17 +199,24 @@
 
         .ensure {
             display: flex;
+            font-size: 15px;
+            font-weight: bold;
             width: 100%;
+            padding: 0 32px;
             flex-direction: row;
-            justify-content: flex-end;
+            justify-content: space-between;
             align-items: center;
             margin-top: 24px;
-            padding-right: 30px;
             margin-bottom: 12px;
         }
 
         .ensure select {
             margin-right: 12px;
+        }
+
+        .ensure input {
+            width: 100px;
+            margin: 0 0 0 8px;
         }
 
         input:not(.checkbox) {
@@ -514,15 +522,22 @@
             </div>
         </div>
         <div class="ensure">
-            <span>房屋类型：</span>
-            <select id="houseType" onchange="onSelect()">
-                <option value="0" selected>首套</option>
-                <option value="1">二套</option>
-                <option value="2">三套及以上</option>
-                <option value="3">叠墅</option>
-            </select>
-            <button class="calc-button" onclick="onCalculate()">计算</button>
+            <div>
+                <span>毛坯单价</span>
+                <input id="singlePrice" type="text" oninput="onSinglePriceInput()">
+                <span>元</span>
+            </div>
+            <div style="position: relative;left: -84px;">
+                <span>房屋类型：</span>
+                <select id="houseType" onchange="onSelect()">
+                    <option value="0" selected>首套</option>
+                    <option value="1">二套</option>
+                    <option value="2">三套及以上</option>
+                    <option value="3">叠墅</option>
+                </select>
+            </div>
         </div>
+        <button class="calc-button"style="align-self: flex-end;margin-right: 24px" onclick="onCalculate()">计算</button>
         <div class="info">
             <span>说明:</span>
             <span style="line-height: 24px">

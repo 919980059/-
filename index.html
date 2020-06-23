@@ -97,6 +97,7 @@
             font-weight: 600;
             font-family: cursive;
             display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
@@ -138,7 +139,7 @@
             justify-content: start;
             align-items: start;
             font-size: 13px;
-            width: 500px;
+            width: 100%;
             color: #30303099;
             font-weight: 600;
         }
@@ -176,7 +177,6 @@
 
         .calc {
             display: flex;
-            margin-top: 32px;
             font-size: 15px;
             font-weight: bold;
             flex-direction: row;
@@ -186,18 +186,13 @@
         }
 
         .calc > div {
-            margin-top: 4px;
+            margin-top: 8px;
             width: 50%
         }
 
         .calc > div input {
             width: 50%
         }
-
-        .calc > div span {
-            width: 50%
-        }
-
 
         input:not(.checkbox) {
             border-radius: 5px;
@@ -253,20 +248,33 @@
 
         @media screen and (max-width: 599px) {
 
+            .main {
+                width: 100%
+            }
+
+            .title {
+                font-size: 24px;
+            }
+
+            .calc > div input {
+                width: 40%
+            }
         }
 
     </style>
     <script>
-        const house = {amount: '', area: '', price: ''};
+        const house = {amount: '', area: '', price: '', floor: ''};
         // 契税率
         let taxesRate = "";
         // 维修基金
-        const repairFound = 73;
+        let repairFound = 73;
         // 物业费
         const propertyFee = {price: 2.5, month: 12};
         // 电费
         const elFee = 300;
         let lastAmount = '';
+        let lastPrice = '';
+        let lastFloor = '';
         let lastArea = '';
         let houseType = 0;
 
@@ -287,6 +295,7 @@
                     } else {
                         taxesRate = 0.015;
                     }
+                    setRepairFund();
                     propertyFee.price = 2.5;
                     break
                 }
@@ -296,23 +305,42 @@
                     } else {
                         taxesRate = 0.02;
                     }
+                    setRepairFund();
                     propertyFee.price = 2.5;
                     break
                 }
                 case 2: {
                     taxesRate = 0.03;
+                    setRepairFund();
                     propertyFee.price = 2.5;
                     break;
                 }
                 case 3: {
+                    setRepairFund();
                     taxesRate = 0.04;
+                    repairFound = 55;
                     propertyFee.price = 3.0;
+                    document.getElementById('repairFund').value = repairFound;
                     break;
                 }
             }
             userChange = true;
             setSelect();
             setPropertyPrice();
+        }
+
+        function setRepairFund() {
+            if (house.floor) {
+                if (house.floor <= 14) {
+                    repairFound = 61;
+                } else {
+                    repairFound = 73
+                }
+                if (document.getElementById('houseType').value === 3) {
+                    repairFound = 55;
+                }
+                document.getElementById('repairFund').value = repairFound;
+            }
         }
 
         function setSelect() {
@@ -324,13 +352,15 @@
         }
 
         function onCalculate() {
-            if (!house.area && !house.amount) {
-                alert('请输入毛坯总价和总面积后再计算！');
+            if (!house.area && (!house.amount || !house.price) && !house.floor) {
+                alert('请输入毛坯总价或单价、总面积、楼层后再计算！');
             }
-            else if (!house.amount) {
-                alert('请输入毛坯总价后再计算！');
+            else if (!house.amount && !house.price) {
+                alert('请输入毛坯总价或单价后再计算！');
             } else if (!house.area) {
                 alert('请输入总面积后再计算！');
+            } else if (!house.floor) {
+                alert('请输入楼层后再计算！');
             } else {
                 if (userChange) {
                     userChange = false;
@@ -431,6 +461,10 @@
                 house.price = Math.round(house.amount / house.area * 100) / 100;
                 const element = document.getElementById('price');
                 element.value = house.price;
+            } else if (house.area && house.price) {
+                house.amount = Math.round(house.price * house.area * 100) / 100;
+                const element = document.getElementById('houseAmount');
+                element.value = house.amount;
             }
             onClear();
             userChange = true;
@@ -445,9 +479,9 @@
             if (reg.test(element.value)) {
             } else {
                 // element.value = element.value.replace(/\D/g, '');
-                element.value = lastAmount
+                element.value = lastPrice
             }
-            lastAmount = element.value;
+            lastPrice = element.value;
             house.price = element.value;
             if (house.area && house.price) {
                 house.amount = Math.round(house.price * house.area * 100) / 100;
@@ -455,6 +489,26 @@
                 element.value = house.amount;
             }
             userChange = true;
+            onClear();
+        }
+
+        function onFloorInput() {
+            const element = document.getElementById('floor');
+            // const reg = /(^[0-9]\d*$)/
+            // const reg = /^\d*\.?\d*$/;
+            const reg = /^[0-9]*([.]?[0-9]{0,2})?$/;
+            if (reg.test(element.value)) {
+                if (element.value >= 47) {
+                    element.value = 47
+                }
+            } else {
+                // element.value = element.value.replace(/\D/g, '');
+                element.value = lastFloor
+            }
+            lastFloor = element.value;
+            house.floor = element.value;
+            userChange = true;
+            setRepairFund();
             onClear();
         }
 
@@ -499,6 +553,11 @@
                 <span>元</span>
             </div>
             <div>
+                <span>楼层数</span>
+                <input id="floor" type="text" oninput="onFloorInput()">
+                <span>层</span>
+            </div>
+            <div>
                 <span>房屋类型：</span>
                 <select id="houseType" onchange="onSelect()">
                     <option value="0" selected>首套</option>
@@ -515,7 +574,7 @@
             1、武汉新房房产税：首套90平（含）以下为1%，90平以上为1.5%；第二套90平（含）为1%不变，90平以上为2%，第三套不论面积统统为3%;海伦叠墅属于非普通住宅，税率为4%。计算公式为毛坯总价X税费比例。
         </span>
             <span>
-            2、海伦目前维修基金73元/平，高层物业费2.5元/平，叠墅3.0元/平，公摊都计算在内。
+            2、海伦目前维修基金叠墅为55元/平方米，有电梯14层以下（含14层）住宅为61元/平，有电梯15层以上（含15层）住宅为73元/平，高层物业费2.5元/平，叠墅3.0元/平，公摊都计算在内。
         </span>
         </div>
         <table class="table">
@@ -543,7 +602,11 @@
             <tr>
                 <th>维修基金：</th>
                 <td>
-                    73元/平
+                    <select disabled id="repairFund">
+                        <option value="55">55元/平</option>
+                        <option value="61">61元/平</option>
+                        <option value="73">73元/平</option>
+                    </select>
                 </td>
                 <td>
                     <span id="repair"></span>

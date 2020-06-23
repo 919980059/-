@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac3cfcd-41ec-4f8c-9d1d-c05b5132cab9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +15,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="111">
+              <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
               <folding>
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -39,7 +41,12 @@
       <find>classList.</find>
       <find>turning</find>
       <find>main</find>
+      <find>media</find>
+      <find>left</find>
+      <find>房屋总面积</find>
+      <find>calc</find>
       <find>button</find>
+      <find>scale</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +66,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="55" />
+    <option name="x" value="13" />
+    <option name="y" value="3" />
     <option name="width" value="1840" />
     <option name="height" value="1000" />
   </component>
@@ -123,7 +130,7 @@
       <workItem from="1591251705565" duration="1374000" />
       <workItem from="1591580438137" duration="1485000" />
       <workItem from="1592470534094" duration="2858000" />
-      <workItem from="1592898932890" duration="550000" />
+      <workItem from="1592898932890" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="修复叠墅物业费3.0元/平">
       <created>1591003184435</created>
@@ -153,17 +160,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592474507981</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bug repair">
+      <created>1592899497883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592899497883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18409000" />
+    <option name="totallyTimeSpent" value="19945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="44" width="1472" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12729844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2609618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -180,7 +194,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3298351" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.08245877" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -202,17 +216,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修复叠墅物业费3.0元/平" />
     <MESSAGE value="添加动效" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加动效" />
+    <MESSAGE value="bug repair" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug repair" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="111">
+          <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
           <folding>
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>

@@ -336,7 +336,7 @@
                 } else {
                     repairFound = 73
                 }
-                if (document.getElementById('houseType').value === 3) {
+                if (document.getElementById('houseType').value === '3') {
                     repairFound = 55;
                 }
                 document.getElementById('repairFund').value = repairFound;
@@ -443,6 +443,10 @@
                 const element = document.getElementById('price');
                 element.value = house.price;
             }
+            document.getElementById('price').disabled = !!element.value;
+            if (!element.value) {
+                document.getElementById('price').value = ''
+            }
             userChange = true;
             onClear();
         }
@@ -487,6 +491,10 @@
                 house.amount = Math.round(house.price * house.area * 100) / 100;
                 const element = document.getElementById('houseAmount');
                 element.value = house.amount;
+            }
+            document.getElementById('houseAmount').disabled = !!element.value;
+            if (!element.value) {
+                document.getElementById('houseAmount').value = ''
             }
             userChange = true;
             onClear();

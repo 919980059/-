@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac3cfcd-41ec-4f8c-9d1d-c05b5132cab9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +15,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+            <state relative-caret-position="177">
+              <caret line="532" column="42" lean-forward="true" selection-start-line="532" selection-start-column="42" selection-end-line="532" selection-end-column="42" />
               <folding>
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#15331#217309#1" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#div#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -47,6 +44,13 @@
       <find>calc</find>
       <find>button</find>
       <find>scale</find>
+      <find>500px</find>
+      <find>73</find>
+      <find>73/元</find>
+      <find>维修基金</find>
+      <find>set</find>
+      <find>Rate</find>
+      <find>onArea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,8 +70,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="3" />
+    <option name="x" value="86" />
+    <option name="y" value="7" />
     <option name="width" value="1840" />
     <option name="height" value="1000" />
   </component>
@@ -98,6 +102,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592906666804" />
     <property name="editorconfig.notification" value="=======&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -130,7 +135,7 @@
       <workItem from="1591251705565" duration="1374000" />
       <workItem from="1591580438137" duration="1485000" />
       <workItem from="1592470534094" duration="2858000" />
-      <workItem from="1592898932890" duration="2086000" />
+      <workItem from="1592898932890" duration="7736000" />
     </task>
     <task id="LOCAL-00001" summary="修复叠墅物业费3.0元/平">
       <created>1591003184435</created>
@@ -167,14 +172,42 @@
       <option name="project" value="LOCAL" />
       <updated>1592899497883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bug repair">
+      <created>1592901032967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592901032967</updated>
+    </task>
+    <task id="LOCAL-00007" summary="bug repair">
+      <created>1592901074866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592901074866</updated>
+    </task>
+    <task id="LOCAL-00008" summary="bug repair">
+      <created>1592906619771</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592906619771</updated>
+    </task>
+    <task id="LOCAL-00009" summary="bug repair">
+      <created>1592906646331</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592906646331</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19945000" />
+    <option name="totallyTimeSpent" value="25595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="44" width="1472" height="800" extended-state="0" />
+    <frame x="70" y="7" width="1472" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2609618" />
@@ -222,17 +255,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+        <state relative-caret-position="177">
+          <caret line="532" column="42" lean-forward="true" selection-start-line="532" selection-start-column="42" selection-end-line="532" selection-end-column="42" />
           <folding>
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#15331#217309#1" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

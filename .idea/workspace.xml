@@ -16,15 +16,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="576" column="63" selection-start-line="576" selection-start-column="63" selection-end-line="576" selection-end-column="63" />
+            <state relative-caret-position="54">
+              <caret line="306" column="35" lean-forward="true" selection-start-line="306" selection-start-column="35" selection-end-line="306" selection-end-column="35" />
               <folding>
-                <element signature="e#15257#217235#1" expanded="true" />
-                <element signature="n#div#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#src#0;n#img#0;n#div#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -46,6 +46,15 @@
       <find>calc</find>
       <find>button</find>
       <find>scale</find>
+      <find>&lt;input</find>
+      <find>houseType</find>
+      <find>repairFund</find>
+      <find>taxesRate</find>
+      <find>id=</find>
+      <find>1.4</find>
+      <find>propertyPrice</find>
+      <find>blue</find>
+      <find>audio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,8 +74,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="129" />
+    <option name="x" value="37" />
+    <option name="y" value="52" />
     <option name="width" value="1840" />
     <option name="height" value="1000" />
   </component>
@@ -79,6 +88,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,21 +97,30 @@
               <item name="hailunjiaofang" type="b2602c69:ProjectViewProjectNode" />
               <item name="hailunjiaofang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hailunjiaofang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hailunjiaofang" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595840915581" />
     <property name="editorconfig.notification" value="=======&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\文档\GitHub\hailunjiaofang\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,6 +151,7 @@
       <workItem from="1592470534094" duration="2858000" />
       <workItem from="1592898932890" duration="2086000" />
       <workItem from="1592969813814" duration="273000" />
+      <workItem from="1595835770934" duration="5137000" />
     </task>
     <task id="LOCAL-00001" summary="修复叠墅物业费3.0元/平">
       <created>1591003184435</created>
@@ -174,17 +195,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592910574362</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/919980059/hailunjiaofang&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1593307888265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593307888265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20959000" />
+    <option name="totallyTimeSpent" value="26385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="129" width="1840" height="1000" extended-state="0" />
+    <frame x="30" y="42" width="1472" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12952489" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26803395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -201,7 +229,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.104761906" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.0813253" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -224,20 +252,28 @@
     <MESSAGE value="修复叠墅物业费3.0元/平" />
     <MESSAGE value="添加动效" />
     <MESSAGE value="bug repair" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug repair" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/919980059/hailunjiaofang&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/919980059/hailunjiaofang&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/media.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="576" column="63" selection-start-line="576" selection-start-column="63" selection-end-line="576" selection-end-column="63" />
+        <state relative-caret-position="54">
+          <caret line="306" column="35" lean-forward="true" selection-start-line="306" selection-start-column="35" selection-end-line="306" selection-end-column="35" />
           <folding>
-            <element signature="e#15257#217235#1" expanded="true" />
-            <element signature="n#div#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#src#0;n#img#0;n#div#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

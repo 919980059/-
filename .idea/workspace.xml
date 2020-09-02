@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eac3cfcd-41ec-4f8c-9d1d-c05b5132cab9" name="Default Changelist" comment="">
+    <list default="true" id="eac3cfcd-41ec-4f8c-9d1d-c05b5132cab9" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,8 @@
       <workItem from="1592898932890" duration="2086000" />
       <workItem from="1592969813814" duration="273000" />
       <workItem from="1595835770934" duration="6559000" />
-      <workItem from="1598952227489" duration="584000" />
+      <workItem from="1598952227489" duration="2191000" />
+      <workItem from="1599009081747" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="修复叠墅物业费3.0元/平">
       <created>1591003184435</created>
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598952635300</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1598952828628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598952828628</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,16 +150,18 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/919980059/hailunjiaofang&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="v1.5 ,添加清空按钮和音频" />
     <MESSAGE value="bug repair" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug repair" />
+    <MESSAGE value="Default Changelist" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1598952634294">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1598952827643">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1598952634294" />
-    <state x="224" y="105" key="Vcs.Push.Dialog.v2" timestamp="1598952639471">
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1598952827643" />
+    <state x="224" y="105" key="Vcs.Push.Dialog.v2" timestamp="1598952831408">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="224" y="105" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1598952639471" />
+    <state x="224" y="105" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1598952831408" />
   </component>
 </project>
